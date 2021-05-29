@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>08 HACKATON</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h1>EJERCICIOS DE ALGORITMOS</h1>
+        </div>
+        <div class="quest">
+            <ul>
+                <li>1.- Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla</li>
+                <div class="text">
+                    <h2>resultado 1</h2>
+                    <p> const numero1 = 30,</p>
+                    <p>numero2 = 20;</p>
+                    <p>let resultado;</p>
+                    <p>resultado = numero1 + numero2;</p>
+                    <p>console.log(resultado);</p>
+                </div>
+                <li>2.- Un estudiante realiza 4 exámenes, calcular el promedio de estos</li>
+                <div class="text">
+                    <h2>resultado 2</h2>
+                    <p>const examen1 = 6.3,</p>
+                    <p>examen2 = 10,</p>
+                    <p>examen3 = 7.5,</p>
+                    <p>examen4 = 5.5;</p>
+                    <p>let promedio;</p>
+                    <p>promedio = (examen1 + examen2 + examen3 + examen4)/4;</p>
+                    <p>console.log(`el promedio de los 4 examenes es ${promedio}`);</p>
+                </div>
+                <li>3.- Calcular el área de un rectángulo</li>
+                <div class="text">
+                    <h2>resultado 3</h2>
+                    <p>const base = prompt ('Ingrese el valor de la Base');</p>
+                    <p>const altura = prompt ('Ingrese el valor de la Altura');</p>
+                    <p>const área = base * altura;</p>
+                    <p>console.log(`el área de un rectangulo es ${área}`);</p>
+                </div>
+                <li>4.- Calcular el área de un triángulo</li>
+                <div class="text">
+                    <h2>resultado 4</h2>
+                    <p>const base = parseInt(prompt ('Ingrese el valor de la Base'));</p>
+                    <p>const altura = parseInt(prompt ('Ingrese el valor de la Altura'));</p>
+                    <p>const área = (base * altura)/2; </p>
+                    <p>console.log(`el área de un triangulo es &{área}`);</p>
+                </div>
+                <li>5.- Calcular el área de una circunferencia</li>
+                <div class="text">
+                    <h2>resultado 5</h2>
+                    <p>const pi = Math.PI;</p>
+                    <p>const radio = parseFloat(prompt('Ingrese el radio del circulo'));</p>
+                    <p>const área = pi * Math.pow(radio,2);</p>
+                    <p>console.log(`el área de una circunferencia es ${área}`);</p>
+                </div>
+                <li>6.- Determinar el sueldo semanal de un trabajador basándose en sus horas trabajadas y su salario de hora hombre</li>
+                <div class="text">
+                    <h2>resultado 6</h2>
+                    <p>const hora = 6;</p>
+                    <p>const salarioXhora = 5;</p>
+                    <p>const semana = 7;</p>
+                    <p>let sueldoSemanal;</p>
+                    <p>sueldoSemanal = (hora * salarioXhora)* semana;</p>
+                    <p>console.log(`el sueldo semanal es ${SueldoSemanal}`);</p>
+                </div>
+                <li>7.- Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas,pero ella generalmente las tiene en metros. Realice un algoritmo para ayudar a resolver el problema, determinando cuantas pulgadas debe pedir con base en los metros que requiere. Represéntelo mediante el diagrama de flujo y el pseudocódigo (1 pulgada = 0.0254 m).</li>
+                <div class="text">
+                    <h2>resultado 7</h2>
+                    <p>const 1pulgada = 0.0254;</p>
+                    <p>const metrosTela = 300;</p>
+                    <p>let telaPulgadas;</p>
+                    <p>telaPulgadas = 1pulgada * metrosTela;</p>
+                    <p>console.log(`las pulgadas de tela a pedir es ${telaPulgadas}`);</p>
+                </div>
+                <li>8.- Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero peruano</li>
+                <div class="text">
+                    <h2>resultado 8</h2>
+                    <p>const 1sol = 0.26;</p>
+                    <p>const presupuestoSoles = 9800;</p>
+                    <p>let dolaresAdquirido;</p>
+                    <p>dolaresAdquirido = 1sol * presupuestoSoles;</p>
+                    <p>console.log(`la cantidad de dolares adquirido con el monto equis es  ${dolaresAdquirido}`);</p>
+                </div>
+                <li>9.- Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron</li>
+                <div class="text">
+                    <h2>resultado 9</h2>
+                    <p>const anioNacimiento = Number(prompt('Ingrese su anio de nacimiento'));</p>
+                    <p>const anioActual = 2021;</p>
+                    <p>const edadPersonas = anioNacimiento - anioActual;</p>
+                    <p>console.log(`la edad de las personas que solicitan trabajo es ${edadPersonas}`)</p>
+                </div>
+                <li>10.- Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la edad de la persona de menor edad</li>
+                <div class="text">
+                    <h2>resultado 10</h2>
+                    <p>const pedro = 20;</p>
+                    <p>const roberto = 17;</p>
+                    <p>const lucia = 22;</p>
+                    <p>let menorEdad;</p>
+                    <p>menorEdad = pedro > roberto;</p>
+                    <p>menorEdad = roberto < lucia;</p>
+                    <p>console.log(`roberto es menor de edad ${menorEdad}`)</p>
+                </div>
+                <li>11.- Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los 5 años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo y represéntelo ,que permita determinar el bono que recibirá un trabajador.</li>
+                <div class="text">
+                    <h2>resultado 11</h2>
+                    <p>Escribir Sin Saltar "Ingresa el valor de antiguedad:";</p>
+                    <p>Leer antiguedad;</p>
+                    <p>Si antiguedad<=5 Entonces</p>
+                    <p> bono <- antiguedad*100;</p>
+                    <p>SiNo bono <- 1000;</p>
+                    <p>FinSi</p>
+                    <p>Escribir "Valor de bono: ", bono;</p>
+                    <p>FinProceso</p>
+                </div>
+                <li>12.- Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido en cada uno de los 6 años? Realice el algoritmo y representan la solución, utilizando el ciclo apropiado</li>
+                <div class="text">
+                    <h2>resultado 12</h2>
+                    <p>Algoritmo detarea</p>
+                    <p>Definir salario Como Real</p>
+                    <p>Definir x Como Entero</p>
+                    <p>salario = 1500</p>
+                    <p>para x = 1 Hasta 6 Con Paso 1 Hacer</p>
+                    <p> salario = salario + (salario * .10)</p>
+                    <p>Escribir «El salario en el año «,x,» es: $»,salario</p>
+                    <p>FinPara</p>
+                    <p>Escribir «El salario en 6 años es: $»,salario</p>
+                    <p>FinAlgoritmo</p>
+                </div>
+                <li>13.- Realice un algoritmo para leer las calificaciones de N alumnos y determine el número de aprobados y reprobados</li>
+                <div class="text">
+                    <h2>resultado 13</h2>
+                    <p>Algoritmo detarea</p>
+                    <p>Definir n, reprobados, aprobados Como Entero</p>
+                    <p>Definir cali Como Real</p>
+                    <p>Escribir 'Ingresa el número de alumnos'</p>
+                    <p>leer n</p>
+                    <p>reprobados = 0</p>
+                    <p>aprobados = 0</p>
+                    <p>Mientras  n > 0 Hacer</p>
+                    <p>Escribir 'Ingresa la calificación'</p>
+                    <p>leer cali</p>
+                    <p>si cali < 6 Entonces</p>
+                    <p>reprobados = reprobados + 1</p>
+                    <p>SiNo</p>
+                    <p>aprobados = aprobados + 1</p>
+                    <p>FinSi</p>
+                    <p>n = n – 1</p>
+                    <p>FinMientras</p>
+                    <p>Escribir 'El total de alumnos aprobados es:',aprobados</p>
+                    <p>Escribir 'El total de alumnos reprobados es:',reprobados</p>
+                    <p>FinAlgoritmo</p>
+                </div>
+                <li>14.- Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea contabilizar, de un lote de N focos, el número de focos de cada color que hay en existencia</li>
+                <div class="text">
+                    <h2>resultado 14</h2>
+                    <p>Algoritmo detarea</p>
+                    <p>Definir n, color, verde, blanco, rojo Como Entero</p>
+                    <p>Escribir 'Ingresa la cantidad de focos'</p>
+                    <p>leer n</p>
+                    <p>verde = 0</p>
+                    <p>blanco = 0</p>
+                    <p>rojo = 0</p>
+                    <p>Mientras n > 0 Hacer</p>
+                    <p>Escribir 'Selecciona un color'</p>
+                    <p>Escribir '1 = verde'</p>
+                    <p>Escribir '2 = blanco'</p>
+                    <p>Escribir '3 = rojo'</p>
+                    <p>leer color</p>
+                    <p>si color >= 1 y color <= 3  Entonces</p>
+                    <p>si color == 1 Entonces</p>
+                    <p>verde = verde + 1</p>
+                    <p>SiNo</p>
+                    <p>si color == 2 Entonces</p>
+                    <p>blanco = blanco + 1</p>
+                    <p>SiNo</p>
+                    <p>rojo = rojo + 1</p>
+                    <p>FinSi</p>
+                    <p>FinSi</p>
+                    <p>n = n – 1</p>
+                    <p>SiNo</p>
+                    <p>Escribir 'Ingresa un color correcto'</p>
+                    <p>FinSi</p>
+                    <p>FinMientras</p>
+                    <p>Escribir «El total de focos verdes es: «,verde</p>
+                    <p>Escribir «El total de focos blancos es: «,blanco</p>
+                    <p>Escribir «EL total de focos rojos es: «,rojo</p>
+                    <p>FinAlgoritmo</p>
+                </div>
+                <li>15.- Realice un algoritmo para determinar si una persona puede votar con base en su edad en las próximas elecciones</li>
+                <div class="text">
+                    <h2>resultado 15</h2>
+                    <p>Algoritmo detarea</p>
+                    <p>Definir edad Como Entero</p>
+                    <p>Escribir «Dame tu edad»</p>
+                    <p>leer edad</p>
+                    <p>si edad >= 18 Entonces</p>
+                    <p>Escribir «Eres apto para poder votar»</p>
+                    <p>SiNo</p>
+                    <p>Escribir «No eres apto para poder votar»</p>
+                    <p>FinSi</p>
+                    <p>FinAlgoritmo</p>
+                </div>
+            </ul>
+        </div>
+            
+            
+
+    </div>
+    
+</body>
+</html>

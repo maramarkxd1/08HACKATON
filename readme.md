@@ -1,0 +1,6 @@
+# 1.- ¿Cuál es la importancia de usar un algoritmo?
+## Los algoritmos son muy importantes a la hora de programar ya que son los pasos exactos para resolver un problema. Esto quiere decir que es un procedimiento computacional bien definido que requiere de datos de entrada y produce un valor como salida.
+# 2.- ¿Cómo un algoritmo mejora el proceso o servicio de una empresa?
+## Segun lo planteado en caso tu tienda, el servicio de envios estaba presentando un poca demanda ya que al tener una flota de motos los costos de envio eran mucho mas altos. Al tener un algoritmo que avalue que es mas rentable para el usuario y la empresa que brinda el servicio asi podra reducir los costos aplicando las variables vistas en el problema como es el tiempo y la distancia y asi reducir los costos en los envios y su demanda pueda subir.
+# 3.-¿El algoritmo expuesto en este caso es el único con el que cuenta TuTienda?
+## Segun lo leido en el problema era una de varias ideas que tenia el equipo de tecnologia, pero en la lectura no especifican a ciencia cierta la cantidad de ideas que tenian para mejorar el costo de envios.
